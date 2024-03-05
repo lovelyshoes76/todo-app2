@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js"></script>
+    <script src="demo.js"></script>
+    <title>TODO APP</title>
+  </head>
+  <body>
+    <main class="todo-app">
+      <h1>TODO LIST:</h1>
+      <section class="todo-input-section">
+        <input class="todo-input" type="text" placeholder="New Task" />
+        <button class="todo-input-button">Add</button>
+      </section>
+      <section class="todo-list-section">
+        <div class="todo-item">
+          <input class="toggle" type="checkbox" id="check1" />
+          <label for="check1">
+            <!-- label:before -->
+            <span>Make Breakfast</span>
+            <!-- label:after -->
+          </label>
+        </div>
+        <div class="todo-item" id="checkbox1">
+          <input class="toggle" type="checkbox" id="check2" />
+          <label for="check2">
+            <span>Clean Guitar</span>
+          </label>
+        </div>
+        <div class="todo-item" id="checkbox2">
+          <input class="toggle" type="checkbox" id="check3" />
+          <label for="check3">
+            <span>Feed the Dog</span>
+          </label>
+        </div>
+        <div class="todo-item" id="checkbox3">
+          <input class="toggle" type="checkbox" id="check4" />
+          <label for="check4">
+            <span>Order Pizza</span>
+          </label>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
